@@ -54,12 +54,13 @@ As I structured the tables, I made sure to create important calculations that wo
 During the visualization process, a range of insights became apparent, which I will elaborate upon. To start, a comprehensive overview of our sales and customer metrics was provided through an information card. The top 10 customers and the top 10 products were identified based on both sales value and quantity sold. Furthermore, the sales trend over the entire timeframe, broken down by months and years, was showcased. For enhanced analytical exploration, slicers were introduced, allowing for focused drill-through. These slicers, spanning years, months, product categories, and subcategories, facilitated more targeted analysis. The sales report was differenciated in terms of sales and quantity by the use of navigation button shown below:
 
 ![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/b6e7b013-7f5a-4d08-9c05-a8b2cf6b974a)
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/301e6944-235c-40eb-8205-70511dab6a80)
+
 
 
 
 
 Recognizing the potential need to address questions related to quantities rather than total sales, I implemented a navigation button. This button enabled a seamless transition to an analysis centered on quantities, addressing a specific aspect of the data for a more comprehensive perspective. The visual reorts in terms of both sales and quantity are shown below:
+
 
 ![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/0bf97217-c355-44c5-ac82-c478ec6a65f6)
 
@@ -68,15 +69,15 @@ sales report(sales revenue)	sales report(quantity)
 ### Sales Report - Visualization
 Within the sales report, a range of visualizations were constructed to illuminate various aspects. Firstly, a visual depiction of age bracket distribution in relation to total sales was generated, shedding light on how different age groups contribute to overall sales. Similarly, separate visuals illustrated the correlation between customer gender, marital status, and total sales, offering distinct insights.The visual reort is shown below:
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/afaa1d78-8bb4-462f-bde9-1df7598fd897)
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/fb1cd630-11a8-4ee1-8be0-5fb456f9e211)
 
 
 Employing a map visualization, geographical data was harnessed to reveal the origins of sales and their magnitudes across cities. Additionally, a table was created to present customer names alongside the total revenue they generated over the course of a month, furnishing a comprehensive understanding of individual customer contributions.
 
 Incorporating the slicers enhance navigation that helps us differenciate Gender, Marital Status, and Region dispositions toward bike purchase. A consistent framework was established for the sales performance report, enabling a cohesive analysis across regions by selecting through the slicers to visualise bike purchased through the use of navigation button shown below:
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/fb1cd630-11a8-4ee1-8be0-5fb456f9e211)
 
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/afaa1d78-8bb4-462f-bde9-1df7598fd897)
 You can interact with the report HERE
 
 ### Insights and Recommendations
