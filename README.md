@@ -1,14 +1,14 @@
-## Bike-Sales-Performance-Report
-Introduction
+# Bike-Sales-Performance-Report
+##Introduction
 Welcome to the exciting world of data analysis! In this documentation, we delve into an in-depth exploration of sales and customer data, leveraging the comprehensive Adventure Works dataset. Our analysis aims to uncover valuable insights and trends that lie within the data, shedding light on the dynamics of sales, customer behavior, and more. Join us on this journey as we navigate through the numbers, revealing actionable findings that can drive strategic decisions and enhance business outcomes. The Sales Performance report provides information on how the age brackets, distance, gender and Income influence bikes purchase in three (3) of the worlds continents. The report allows you to view at a glance the sales performance as they relate to those aforementioned factors This way, you can measure performance and improve your sales strategy.
 
 You can interact with the report HERE
 
 
-# Data Source
+## Data Source
 The data used for this project was from IJAN Tutor database.
 
-# Task
+## Task
 Sales Trends and Period Analysis: Analyzing sales trends across months and years and Identifying growth patterns and seasonal fluctuations.
 
 Top Customers and Product Performance: Recognizing top customers with significant sales contributions and Highlighting exceptional products in terms of sales value and quantity.
