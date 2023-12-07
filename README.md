@@ -65,18 +65,17 @@ Recognizing the potential need to address questions related to quantities rather
 
 sales report(sales revenue)	sales report(quantity)
 	
-### Customers Report - Visualization
-Within the customers report, a range of visualizations were constructed to illuminate various aspects. Firstly, a visual depiction of age bracket distribution in relation to total sales was generated, shedding light on how different age groups contribute to overall sales. Similarly, separate visuals illustrated the correlation between customer gender, marital status, and total sales, offering distinct insights.The visual reort is shown below:
+### Sales Report - Visualization
+Within the sales report, a range of visualizations were constructed to illuminate various aspects. Firstly, a visual depiction of age bracket distribution in relation to total sales was generated, shedding light on how different age groups contribute to overall sales. Similarly, separate visuals illustrated the correlation between customer gender, marital status, and total sales, offering distinct insights.The visual reort is shown below:
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/fb1cd630-11a8-4ee1-8be0-5fb456f9e211)
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/afaa1d78-8bb4-462f-bde9-1df7598fd897)
 
 
 Employing a map visualization, geographical data was harnessed to reveal the origins of sales and their magnitudes across cities. Additionally, a table was created to present customer names alongside the total revenue they generated over the course of a month, furnishing a comprehensive understanding of individual customer contributions.
 
 Incorporating the slicers enhance navigation that helps us differenciate Gender, Marital Status, and Region dispositions toward bike purchase. A consistent framework was established for the sales performance report, enabling a cohesive analysis across regions by selecting through the slicers to visualise bike purchased through the use of navigation button shown below:
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/afaa1d78-8bb4-462f-bde9-1df7598fd897)
-
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/fb1cd630-11a8-4ee1-8be0-5fb456f9e211)
 
 You can interact with the report HERE
 
