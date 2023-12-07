@@ -73,7 +73,7 @@ Within the customers report, a range of visualizations were constructed to illum
 
 Employing a map visualization, geographical data was harnessed to reveal the origins of sales and their magnitudes across cities. Additionally, a table was created to present customer names alongside the total revenue they generated over the course of a month, furnishing a comprehensive understanding of individual customer contributions.
 
-Incorporating the slicers enhance navigation help us differenciate gender dispositions toward bike purchase. A consistent framework was established for the sales performance report, enabling a cohesive analysis across regions by selecting through the slicers to visualise bike purchase based on gender. marital status and region by the use of navigation button shown below:
+Incorporating the slicers enhance navigation that helps us differenciate Gender, Marital Status, and Region dispositions toward bike purchase. A consistent framework was established for the sales performance report, enabling a cohesive analysis across regions by selecting through the slicers to visualise bike purchased through the use of navigation button shown below:
 
 ![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/afaa1d78-8bb4-462f-bde9-1df7598fd897)
 
