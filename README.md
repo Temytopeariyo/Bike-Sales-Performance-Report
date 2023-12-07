@@ -53,6 +53,9 @@ As I structured the tables, I made sure to create important calculations that wo
 ### Sales Report - Visualization
 During the visualization process, a range of insights became apparent, which I will elaborate upon. To start, a comprehensive overview of our sales and customer metrics was provided through an information card. The top 10 customers and the top 10 products were identified based on both sales value and quantity sold. Furthermore, the sales trend over the entire timeframe, broken down by months and years, was showcased. For enhanced analytical exploration, slicers were introduced, allowing for focused drill-through. These slicers, spanning years, months, product categories, and subcategories, facilitated more targeted analysis. The sales report was differenciated in terms of sales and quantity by the use of navigation button shown below:
 
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/b6e7b013-7f5a-4d08-9c05-a8b2cf6b974a)
+
+
 
 
 Recognizing the potential need to address questions related to quantities rather than total sales, I implemented a navigation button. This button enabled a seamless transition to an analysis centered on quantities, addressing a specific aspect of the data for a more comprehensive perspective. The visual reorts in terms of both sales and quantity are shown below:
