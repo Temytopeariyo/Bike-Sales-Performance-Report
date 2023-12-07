@@ -59,10 +59,10 @@ During the visualization process, a range of insights became apparent, which I w
 
 
 
-Recognizing the potential need to address questions related to quantities rather than total sales, I implemented a navigation button. This button enabled a seamless transition to an analysis centered on quantities, addressing a specific aspect of the data for a more comprehensive perspective. The visual reorts in terms of both sales and quantity are shown below:
+Recognizing the potential need to address questions related to quantities purchased as it relates to income by occupation of customers, I implemented a navigation button. This button enabled a seamless transition to an analysis centered on quantities, addressing a specific aspect of the data for a more comprehensive perspective. The visual reports in terms of both average of income and Occupation is shown below:
 
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/8be85118-aa22-48c7-8215-88e973eea533)
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/0bf97217-c355-44c5-ac82-c478ec6a65f6)
 
 sales report(sales revenue)	sales report(quantity)
 	
@@ -73,6 +73,9 @@ Within the sales report, a range of visualizations were constructed to illuminat
 
 
 Employing a map visualization, geographical data was harnessed to reveal the origins of sales and their magnitudes across cities. Additionally, a table was created to present customer names alongside the total revenue they generated over the course of a month, furnishing a comprehensive understanding of individual customer contributions.
+
+
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/0bf97217-c355-44c5-ac82-c478ec6a65f6)
 
 Incorporating the slicers enhance navigation that helps us differenciate Gender, Marital Status, and Region dispositions toward bike purchase. A consistent framework was established for the sales performance report, enabling a cohesive analysis across regions by selecting through the slicers to visualise bike purchased through the use of navigation button shown below:
 
