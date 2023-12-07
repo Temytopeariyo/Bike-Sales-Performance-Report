@@ -21,7 +21,7 @@ Geographic Sales Hubs. Locating major sales hubs geographically.
 
 Customer distribution across all months based on the sales revenue.-+-
 
-Data Preparation and Transformation
+## Data Preparation and Transformation
 To prepare dataset for analysis, SQL was used to extract and generate the required tables from the database. In response to the given task, a careful assessment of the necessary database tables was carried out. Specifically, the following tables were selected: dimdate, dimcustomer, dimgeography, dimproduct, dimproductcat, and dimproductsubcat. These tables formed the basis for the subsequent steps.
 
 Building upon this foundation, four core tables were derived using targeted SQL queries. These resulting tables are categorized as follows: customer table, calendar table, product table, and fact table. The accompanying SQL statements outline the specific methodologies that were executed to generate these pivotal tables, serving as integral components for our subsequent analytical endeavors.
@@ -41,15 +41,15 @@ When making the product table, we used a process similar to what we did for the 
 
 
 
-Data Modelling
+## Data Modelling
 After importing these files into Power BI, I structured the data and established a proper relationship between them, adhering to a star schema design. This pivotal step ensured seamless integration of data across tables, facilitating comprehensive analysis and visualization within Power BI. The resulting relationships is shown below:
 
 
 
-Data Exploration and Visualization
+## Data Exploration and Visualization
 As I structured the tables, I made sure to create important calculations that would help our analysis. These calculations included key measures like the total sales, total quantities sold, the number of customers, the count of product categories, the count of product sub-categories, and the count of cities. Adding these calculations was a smart move, as they gave us more ways to understand the data and find useful information.
 
-Sales Report - Visualization
+## Sales Report - Visualization
 During the visualization process, a range of insights became apparent, which I will elaborate upon. To start, a comprehensive overview of our sales and customer metrics was provided through an information card. The top 10 customers and the top 10 products were identified based on both sales value and quantity sold. Furthermore, the sales trend over the entire timeframe, broken down by months and years, was showcased. For enhanced analytical exploration, slicers were introduced, allowing for focused drill-through. These slicers, spanning years, months, product categories, and subcategories, facilitated more targeted analysis. The sales report was differenciated in terms of sales and quantity by the use of navigation button shown below:
 
 
@@ -58,7 +58,7 @@ Recognizing the potential need to address questions related to quantities rather
 
 sales report(sales revenue)	sales report(quantity)
 	
-Customers Report - Visualization
+## Customers Report - Visualization
 Within the customers report, a range of visualizations were constructed to illuminate various aspects. Firstly, a visual depiction of age bracket distribution in relation to total sales was generated, shedding light on how different age groups contribute to overall sales. Similarly, separate visuals illustrated the correlation between customer gender, marital status, and total sales, offering distinct insights.The visual reort is shown below:
 
 
@@ -70,7 +70,8 @@ Incorporating the same slicers employed in the sales report, a consistent framew
 
 
 You can interact with the report HERE
-Insights and Recommendations
+
+## Insights and Recommendations
 The top 10 customers, based on their significant sales contributions, play a vital role in boosting the company's revenue. These high-value customers likely possess considerable purchasing power. Notably, no customer appears on both the high sales and high quantity lists, indicating a distinct nature between the two categories. Nonetheless, being present on either list signifies customer loyalty, showing commitment to the company through either high-value transactions or frequent engagement.
 
 Over a span of 5 years, our analysis covered a range of intriguing sales trends. The total sales figure across this period amounted to $29 million. Between 2010 and 2011, there was a notable surge in total sales, reaching $7 million. The subsequent year, 2012, witnessed a decrease to $6 million. An unprecedented peak emerged in 2013, recording the highest annual sales of $16 million. The graph's decline beyond 2013 is attributed to sales concluding in January 2014. Anticipating post-2014 sales, the optimism is grounded in January 2014's surpassing of 2013's peak and the consistent sales growth from January to December. Overall, the analysis provides a positive outlook for sales beyond 2014, backed by compelling evidence.
@@ -94,5 +95,6 @@ Paris shines as the standout city among the 219 analyzed, not only for its impre
 Looking at marital status, singles contribute 48.27% of the total sales revenue, while married individuals contribute 51.73% of the total sales revenue. This insight suggests that the difference in sales revenue between singles and married individuals is relatively small, indicating that both groups play a significant role in driving sales for the company. This balance highlights the importance of catering to the preferences and needs of both marital status categories, ensuring that products and marketing strategies resonate effectively with a diverse customer base.
 
 You can interact with the report HERE
-Conclusion
+
+## Conclusion
 In conclusion, my thorough analysis of the data has illuminated valuable insights into customer behavior, product preferences, and sales dynamics. From dissecting age-based contributions to understanding gender and marital status impacts, I've gained a comprehensive understanding of our customer base. Exploring city-wise sales highlights and product category distributions has provided strategic directions for growth. These insights serve as a compass, guiding us towards tailored marketing strategies, optimized product offerings, and enhanced customer experiences. By leveraging these findings, I am poised to make informed decisions that will drive our business forward, fostering continued success in an ever-evolving market landscape.
