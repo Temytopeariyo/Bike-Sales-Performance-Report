@@ -1,6 +1,6 @@
 # Bike-Sales-Performance-Report
 
-##Introduction
+##Introduction#
 
 Welcome to the exciting world of data analysis! In this documentation, we delve into an in-depth exploration of sales and customer data, leveraging the comprehensive Adventure Works dataset. Our analysis aims to uncover valuable insights and trends that lie within the data, shedding light on the dynamics of sales, customer behavior, and more. Join us on this journey as we navigate through the numbers, revealing actionable findings that can drive strategic decisions and enhance business outcomes. The Sales Performance report provides information on how the age brackets, distance, gender and Income influence bikes purchase in three (3) of the worlds continents. The report allows you to view at a glance the sales performance as they relate to those aforementioned factors This way, you can measure performance and improve your sales strategy.
 
