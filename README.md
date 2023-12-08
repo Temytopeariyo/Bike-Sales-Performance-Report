@@ -11,15 +11,15 @@ You can interact with the report HERE
 The data used for this project was from IJAN Tutor database.
 
 ### Task
-* Sales Trends and Period Analysis: Analyzing sales trends across months and years and Identifying growth patterns and seasonal fluctuations.
+* Sales Trends and Cummute Distance: Analyzing sales as it relates to commute distance across the state.
 
-* Top Customers and Product Performance: Recognizing top customers with significant sales contributions and Highlighting exceptional products in terms of sales value and quantity.
+* Age distribution and Product Performance: Recognizing top customers based on age bracket with significant sales contributions and Highlighting exceptional products in terms of age bracket and quantity purchased.
 
-* Customer Demographics and Sales Correlation: Exploring correlations between customer demographics and sales and Personalizing marketing efforts based on customer characteristics.
+* Customer Educational level and Sales Correlation: Exploring correlations between customer educational level and sales.
 
-* Geographic Sales Hubs. Locating major sales hubs geographically.
+* Occupational Income and Product performance: The average income per occupation was recognised in relation to the product sales.
 
-* Customer distribution across all months based on the sales revenue.-+-
+* Car owners and Bike purchase: The distribution to show how car owner respond to the bike purchase across the state.
 
 ### Data Preparation and Transformation
 To prepare dataset for analysis, SQL was used to extract and generate the required tables from the database. In response to the given task, a careful assessment of the necessary database tables was carried out. Specifically, the following tables were selected: dimdate, dimcustomer, dimgeography, dimproduct, dimproductcat, and dimproductsubcat. These tables formed the basis for the subsequent steps.
