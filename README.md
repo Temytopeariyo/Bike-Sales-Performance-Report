@@ -19,68 +19,49 @@ The data used for this project was from IJAN Tutor database.
 
 * Occupational Income and Product performance: The average income per occupation was recognised in relation to the product sales.
 
-* Car owners and Bike purchase: The distribution to show how car owner respond to the bike purchase across the state.
+* Car owners and Bike purchase: The distribution portray how car owners respond to the bike purchase across the state.
 
 ### Data Preparation and Transformation
-To prepare dataset for analysis, SQL was used to extract and generate the required tables from the database. In response to the given task, a careful assessment of the necessary database tables was carried out. Specifically, the following tables were selected: dimdate, dimcustomer, dimgeography, dimproduct, dimproductcat, and dimproductsubcat. These tables formed the basis for the subsequent steps.
+To make ready dataset for the analysis, Power Bi was used to turn the unrelated sources of data into coherent, visually immersive, and interactive insights. In response to the given task, a careful assessment of the necessary database tables was carried out. Specifically, the database table was imported from excel and tested for errors. The table which formed the basis for the subsequent steps was free of error during cleaning exercise.
 
-Building upon this foundation, four core tables were derived using targeted SQL queries. These resulting tables are categorized as follows: customer table, calendar table, product table, and fact table. The accompanying SQL statements outline the specific methodologies that were executed to generate these pivotal tables, serving as integral components for our subsequent analytical endeavors.
+Upon this, we are able to harmonise this dataset and turn the unrelated sources of data into coherent, visually immersive, and interactive insights. 
 
-To form the fact table, we selected key details from the fact_internetsales table. This table became the central point where all the other tables in our analysis could link to. By using specific columns from this table, we established connections to other related tables. This structure allowed us to build a framework for better comprehending and processing the data.
-
-Likewise, a similar procedure was undertaken to craft the calendar table. Drawing from the dimdate table within our database, essential columns were extracted to compose the structure of our calendar table. This process ensured that pertinent date-related information was distilled and organized, providing a valuable 
-
-Creating the customer's table posed several challenges that required thoughtful solutions:
-
-* To ensure a distinctive representation of customers, the first name and last name had to be concatenated into a full name format.
-* The marital status column contained only 'M' and 'S' values. To enhance clarity, these were transformed into 'Married' and 'Single'.
-* Similarly, the gender column was addressed by replacing 'M' with 'Male' and 'F' with 'Female'.
-* Utilizing the birthdate column, the Age column was derived by calculating the age relative to the most recent date in the calendar table, which was '2014-12-31'.
-* Additionally, an Age Bracket column was introduced, categorizing ages into three groups: 'Young Adult' (28-39 years), 'Middle Age' (40-59 years), and 'Old Age' (60-100 years). This segmentation facilitated a more meaningful understanding of customer demographics.
-
-When making the product table, we used a process similar to what we did for the calendar and the fact tables. This way of working was kept the same to maintain consistency across the analysis, helping to create a unified structure for studying the data.
-
-
+Form this dataset, the following measures where created for easy visualizing: Average income, Bike Buyers, Non buyers, Number of Femaie buyers, Number of Male buyers and Total participants. These measures became the central point where all the other informations in our analysis could link to. By using specific measures from this table of dataset, we established connections to other related distributions. 
 
 ### Data Modelling
-After importing these files into Power BI, I structured the data and established a proper relationship between them, adhering to a star schema design. This pivotal step ensured seamless integration of data across tables, facilitating comprehensive analysis and visualization within Power BI. The resulting relationships is shown below:
-
-
+We only have a piece of dataset involved hence the logical representation of how data is structured and related within the tool and the collection of tables and relationships between them that are used to create reports and visualizations was not necessary since the intergration of tables were not involved. 
 
 ### Data Exploration and Visualization
-As I structured the tables, I made sure to create important calculations that would help our analysis. These calculations included key measures like the total sales, total quantities sold, the number of customers, the count of product categories, the count of product sub-categories, and the count of cities. Adding these calculations was a smart move, as they gave us more ways to understand the data and find useful information.
+As the data was structured, I made sure I created related calculations that would help the analysis. These calculations included key measures from this dataset and the following measures were created for easy visualizing: Average income, Bike Buyers, Non buyers, Number of Femaie buyers, Number of Male buyers and Total participants. These measures became the central point where all the other informations in our analysis could link to. 
 
 ### Sales Report - Visualization
-During the visualization process, a range of insights became apparent, which I will elaborate upon. To start, a comprehensive overview of our sales and customer metrics was provided through an information card. The top 10 customers and the top 10 products were identified based on both sales value and quantity sold. Furthermore, the sales trend over the entire timeframe, broken down by months and years, was showcased. For enhanced analytical exploration, slicers were introduced, allowing for focused drill-through. These slicers, spanning years, months, product categories, and subcategories, facilitated more targeted analysis. The sales report was differenciated in terms of sales and quantity by the use of navigation button shown below:
+During the visualization process, a comprehensive overview of our sales and customer metrics was provided through an information cards. The measures were dragged and dropped into these information cards and the Average income, Bike Buyers, Non buyers, Number of Femaie buyers, Number of Male buyers and Total participants were all showcased. For enhanced analytical exploration, slicers were introduced, allowing for focused drill-through. These slicers, Gender, Marrital Status and region facilitated more targeted analysis. The sales report was differenciated in terms of sales, income,age bracket, education, commute distance with the use of navigation button shown below:
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/a36fa2cd-a19e-469d-9183-cb39f2ae9783)
-
-
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/887e54d3-95f3-4f58-8e31-6b8eeba9757e)
 
 
 
 Recognizing the potential need to address questions related to quantities purchased as it relates to income by occupation of customers, I implemented a navigation button. This button enabled a seamless transition to an analysis centered on quantities, addressing a specific aspect of the data for a more comprehensive perspective. The visual reports in terms of both average of income and Occupation is shown below:
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/8be85118-aa22-48c7-8215-88e973eea533)
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/6b933381-e17a-4d1f-a0b7-eaa84808dc72)
 
-
-sales report(sales revenue)	sales report(quantity)
-	
 ### Sales Report - Visualization
 Within the sales report, a range of visualizations were constructed to illuminate various aspects. Firstly, a visual depiction of age bracket distribution in relation to total sales was generated, shedding light on how different age groups contribute to overall sales. Similarly, separate visuals illustrated the correlation between customer gender, marital status, and total sales, offering distinct insights.The visual reort is shown below:
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/fb1cd630-11a8-4ee1-8be0-5fb456f9e211)
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/c006587a-d30c-4d1e-a7f9-1704af24c982)
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/94ac879d-d39d-4c26-9625-5c211574f5be)
 
 
-Employing a map visualization, geographical data was harnessed to reveal the origins of sales and their magnitudes across cities. Additionally, a table was created to present customer names alongside the total revenue they generated over the course of a month, furnishing a comprehensive understanding of individual customer contributions.
+Employing a map visualization, geographical data was harnessed to reveal the origins of sales and their magnitudes across region in the state on the second sheet of the project. The visual reort is shown below:
 
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/0a21e1d2-f5f8-4dcd-9b3e-a4d4bb1e8bd4)
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/0bf97217-c355-44c5-ac82-c478ec6a65f6)
 
 Incorporating the slicers enhance navigation that helps us differenciate Gender, Marital Status, and Region dispositions toward bike purchase. A consistent framework was established for the sales performance report, enabling a cohesive analysis across regions by selecting through the slicers to visualise bike purchased through the use of navigation button shown below:
 
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/afaa1d78-8bb4-462f-bde9-1df7598fd897)
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/c09460ba-3ff4-4cef-9f41-108c03b190fb)
+
 You can interact with the report HERE
 
 ### Insights and Recommendations
