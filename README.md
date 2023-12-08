@@ -37,7 +37,7 @@ As the data was structured, I made sure I created related calculations that woul
 ### Sales Report - Visualization
 During the visualization process, a comprehensive overview of our sales and customer metrics was provided through an information cards. The measures were dragged and dropped into these information cards and the Average income, Bike Buyers, Non buyers, Number of Femaie buyers, Number of Male buyers and Total participants were all showcased. For enhanced analytical exploration, slicers were introduced, allowing for focused drill-through. These slicers, Gender, Marrital Status and region facilitated more targeted analysis. The sales report was differenciated in terms of sales, income,age bracket, education, commute distance with the use of navigation button shown below:
 
-![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/887e54d3-95f3-4f58-8e31-6b8eeba9757e)
+![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/aba78dc6-826a-4869-b340-e293b35e9c56)
 
 
 
