@@ -46,7 +46,7 @@ Recognizing the potential need to address questions related to quantities purcha
 ![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/6b933381-e17a-4d1f-a0b7-eaa84808dc72)
 
 ### Sales Report - Visualization
-Within the sales report, a range of visualizations were constructed to illuminate various aspects. Firstly, a visual depiction of age bracket distribution in relation to total sales was generated, shedding light on how different age groups contribute to overall sales. Similarly, separate visuals illustrated the correlation between customer gender, marital status, and total sales, offering distinct insights.The visual reort is shown below:
+Within the sales report, a range of visualizations were constructed to illuminate various aspects. Firstly, a visual depiction of age bracket distribution in relation to total sales that was generated, shedding light on how different age groups contribute to overall sales. Similarly, separate visuals illustrated the correlation between customer gender, marital status, and total sales, offering distinct insights.The visual report is shown below:
 
 ![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/c006587a-d30c-4d1e-a7f9-1704af24c982)
 ![image](https://github.com/Temytopeariyo/Bike-Sales-Performance-Report/assets/81833143/94ac879d-d39d-4c26-9625-5c211574f5be)
